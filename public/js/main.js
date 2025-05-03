@@ -1,6 +1,7 @@
 import ProductAPI from "./api.js";
 
 const api = new ProductAPI();
+console.warn(`Esta prueba está seteada para conectarse a la URL ${api.baseURL}`)
 
 // Tomar valores del form
 const inputId = document.getElementById("productId");
