@@ -1,0 +1,61 @@
+[
+    {
+        "id": "1",
+        "name": "Drone DJI Mavic 3 Pro",
+        "price": 2199.99,
+        "stock": 25,
+        "brand": "DJI",
+        "category": "Drones",
+        "shortDescription": "Drone profesional con cámara 4K y gran autonomía.",
+        "longDescription": "El DJI Mavic 3 Pro es un drone de alto rendimiento con cámara Hasselblad, autonomía de vuelo extendida y sensores para evitar obstáculos en todas las direcciones.",
+        "freeShipping": true,
+        "mainPhoto": "/img/products/dji-mavic-3-pro.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Smartphone Galaxy S25 Ultra",
+        "price": 1399.99,
+        "stock": 30,
+        "brand": "Samsung",
+        "category": "Smartphones",
+        "shortDescription": "El nuevo flagship de Samsung con cámara de 200 MP.",
+        "longDescription": "El Galaxy S25 Ultra cuenta con el último procesador Exynos, pantalla AMOLED 2X de 6.8 pulgadas, y un sistema de cámaras revolucionario para fotos profesionales.",
+        "freeShipping": false,
+        "mainPhoto": "/img/products/galaxy-s25-ultra.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Consola Nintendo Switch 2",
+        "price": 499.99,
+        "stock": 12,
+        "brand": "Nintendo",
+        "category": "Consolas",
+        "shortDescription": "La nueva generación híbrida de Nintendo.",
+        "longDescription": "Nintendo Switch 2 combina juego portátil y de sobremesa con gráficos mejorados, tiempos de carga reducidos y compatibilidad con juegos de la generación anterior.",
+        "freeShipping": true,
+        "mainPhoto": "/img/products/nintendo-switch-2.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Parlante Bluetooth JBL Charge 5",
+        "price": 149.99,
+        "stock": 30,
+        "brand": "JBL",
+        "category": "Audio",
+        "shortDescription": "Parlante portátil con sonido potente y resistente al agua.",
+        "longDescription": "El JBL Charge 5 ofrece hasta 20 horas de reproducción continua, conexión Bluetooth 5.1 y protección IP67 para llevar tu música a cualquier lado.",
+        "freeShipping": true
+    },
+    {
+        "id": "5",
+        "name": "Consola PlayStation 5",
+        "price": 699.99,
+        "stock": 10,
+        "brand": "Sony",
+        "category": "Consolas",
+        "shortDescription": "La consola más potente de Sony con SSD ultrarrápido.",
+        "longDescription": "La PlayStation 5 revoluciona la experiencia de juego con gráficos 4K, soporte para ray tracing, y un control háptico que transforma la inmersión.",
+        "freeShipping": true,
+        "mainPhoto": "/img/products/playstation-5.jpg"
+    }
+]

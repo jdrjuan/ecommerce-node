@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>{{pageTitle}}</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Proyecto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a {{{navLinkAttrs 'home' activePage}}} href="/">Inicio</a>
+                    <a {{{navLinkAttrs 'contact' activePage}}} href="/contact">Contacto</a>
+                    <a {{{navLinkAttrs 'product-create' activePage}}} href="/product-create">Alta de productos</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container my-4">
+            {{{body}}}
+        </div>
+    </main>
+    <div class="bg-dark text-light">
+        <footer class="container py-2">
+            <p>&copy; 2025 - Todos los derechos reservados.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, minus!</p>
+        </footer>
+    </div>
+    <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

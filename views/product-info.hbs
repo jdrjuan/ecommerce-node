@@ -1,0 +1,13 @@
+    <h1>{{name}}</h1>
+    {{#if mainPhoto}}
+        <img src="{{mainPhoto}}" alt="{{name}}">
+    {{else}}
+        <p>No se cargó ninguna foto para este producto.</p>
+    {{/if}}
+    <p>Id: {{id}}</p>
+    <p>{{stock}} unidades</p>
+    {{!-- <p>{{getStockDescription}}</p> --}}
+    <p>${{price}}</p>
+    <p>Envío gratis: {{getFreeShippingText}}</p>
+    <p>{{shortDescription}}</p>
+    <p>{{longDescription}}</p>
