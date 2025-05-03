@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas API Productos</title>
+</head>
+
+<body>
+    <h1>Test de Productos (API)</h1>
+
+    <button id="btnGetAll">Traer todos los productos</button>
+    <button id="btnGet">Traer producto por ID</button>
+    <button id="btnDelete">Eliminar producto</button>
+
+    <h2>Crear / Reemplazar / Editar</h2>
+    <form id="productForm">
+        <input type="text" id="productId" placeholder="ID (sólo para replace/patch)" /><br />
+
+        <input type="text" id="name" placeholder="Nombre" /><br />
+        <input type="number" step="0.01" id="price" placeholder="Precio" /><br />
+        <input type="number" id="stock" placeholder="Stock" /><br />
+        <input type="text" id="brand" placeholder="Marca" /><br />
+        <input type="text" id="category" placeholder="Categoría" /><br />
+
+        <textarea id="shortDescription" rows="2" cols="40" placeholder="Descripción corta"></textarea><br />
+        <textarea id="longDescription" rows="4" cols="40" placeholder="Descripción larga"></textarea><br />
+
+        <label>
+            <input type="checkbox" id="freeShipping" />
+            Envío gratuito
+        </label><br />
+
+        <input type="text" id="mainPhoto" placeholder="URL foto principal" /><br />
+
+        <button id="btnCreate" type="button">Crear producto</button>
+        <button id="btnReplace" type="button">Reemplazar (PUT)</button>
+        <button id="btnEdit" type="button">Editar (PATCH)</button>
+    </form>
+
+    <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>
